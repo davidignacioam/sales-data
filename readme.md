@@ -18,10 +18,10 @@ project-folder/
 ├── data/                        # Data Files and Database
 │   ├── sales_data.csv           # Original sales data
 │   ├── sales_data.db            # SQLite database with processed data
+│   ├── raw_data.py              # Raw data processing and cleaning
 │   ├── __init__.py              # Makes the folder a Python module
 │
 ├── etl/                         # ETL (Extract, Transform, Load) Scripts
-│   ├── raw_data.py              # Raw data processing and cleaning
 │   ├── extract.py               # Data extraction logic
 │   ├── transform.py             # Data transformation logic
 │   ├── load.py                  # Data loading into SQLite database
