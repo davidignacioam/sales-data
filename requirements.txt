@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+pandas
+sqlite3
+numpy
+python-dotenv
+logging
